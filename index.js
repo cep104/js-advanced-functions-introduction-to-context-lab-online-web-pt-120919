@@ -1,5 +1,6 @@
 // Your code here
 function createEmployeeRecord(arr){
+    // go to test see what it is trying to pass in 
     const employee = {
         firstName: arr[0],
         familyName: arr[1],
@@ -8,7 +9,7 @@ function createEmployeeRecord(arr){
         timeInEvents: [],
         timeOutEvents: []
     }
-   
+   console.log(employee)
     return employee
     
 }
